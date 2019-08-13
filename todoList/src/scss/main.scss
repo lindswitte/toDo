@@ -1,0 +1,72 @@
+/* 
+==============================================
+CONTENT:	Project Name Here
+AUTHOR:		Your Name Here
+==============================================
+
+TABLE OF CONTENTS:
+
+0. Reset
+1. Main Layout
+2. Content
+
+==============================================
+*/
+
+/* 0. Reset ================================= */
+@import 'reset';
+
+
+/* 1. Main Layout ================================= */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: #ccc;
+}
+
+
+
+
+/* 2. Content ================================= */
+
+.container {
+	position: relative;
+	background: white;
+	padding: 50px 30px 50px;
+	font-family: sans-serif;
+	width: 90%;
+	max-width: 600px;
+	margin: 140px auto;
+}
+
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 1.5em;
+	margin-top: 30px;
+}
+
+.todo {
+	margin-top: 10px;
+	border: 2px solid #555;
+	margin: 10px 0;
+	li {
+		color: black;
+		padding: 10px 5px;
+		border-bottom: 1px solid #999;
+	}
+	li:last-child {
+		border-bottom: none;
+	}
+	li.finished {
+		text-decoration: line-through;
+	}
+}
+
+
